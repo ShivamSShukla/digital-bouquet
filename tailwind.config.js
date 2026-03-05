@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
     extend: {
       colors: {
@@ -10,10 +11,9 @@ module.exports = {
         softGreen: '#b7eed3',
         coquettePink: '#ffd4ff',
         coquettePeach: '#ffcbcb',
-        coquetteLime: '#e1ffc0',
-      },
-    },
+        coquetteLime: '#e1ffc0'
+      }
+    }
   },
-  variants: {},
-  plugins: [],
+  plugins: []
 };
